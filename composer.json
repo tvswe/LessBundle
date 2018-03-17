@@ -1,0 +1,25 @@
+{
+    "name": "tvswe/less-bundle",
+    "type": "library",
+    "description": "Symfony 4 Less bundle",
+    "keywords": [
+        "less", "symfony", "bundle"
+    ],
+    "homepage": "http://tvswe.eu/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tino Vogel",
+            "email": "tv.swe@gmx.de"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "oyejorge/less.php": "v1.7.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tvswe\\LessBundle\\": ""
+        }
+    }
+}

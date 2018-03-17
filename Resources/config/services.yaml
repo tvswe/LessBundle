@@ -1,0 +1,10 @@
+services:
+    tvswe.less_bundle.compile_less_command:
+        autowire: false
+        autoconfigure: false
+        class: Tvswe\LessBundle\Command\CompileLessCommand
+        arguments:
+            - ~
+            - ~
+        tags: [console.command]
+        
