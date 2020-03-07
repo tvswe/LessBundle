@@ -1,7 +1,7 @@
 {
     "name": "tvswe/less-bundle",
     "type": "library",
-    "description": "Symfony 4 Less bundle",
+    "description": "Symfony 5 Less bundle",
     "keywords": [
         "less", "symfony", "bundle"
     ],
@@ -14,8 +14,8 @@
         }
     ],
     "require": {
-        "php": "^7.2",
-        "oyejorge/less.php": "v1.7.0.*"
+        "php": "^7.4",
+        "wikimedia/less.php": "v2.0.*"
     },
     "autoload": {
         "psr-4": {
